@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  background-color: #f6f6fe;
+  font-family: 'Montserrat', sans-serif;
+  color: #494c5f;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+span, p, button {
+  font-size: 15px
+}
+
+/*** Containers ***/
+.container-fluid {
+  padding: 3% 25%;
+}
+
+@media (max-width: 480px) {
+  .container-fluid {
+    padding: 15% 10%;
+  }
+}
+
+/*** Introduction section ***/
+.fas {
+  color: white;
+  margin-left: 65%;
+}
+
+.heading {
+  color: #6d708d;
+  margin-bottom: 3%;
+}
+
+.toggle-theme span {
+  color: #b3b5c6;
+  margin: 0 2%;
+}
+
+.toggle-theme button {
+  border: none;
+  width: 50px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right,#a3a8f0, #696fdd);
+  outline: none;
+}
+
+@media (max-width: 480px) {
+  .heading {
+    margin-bottom: 10%;
+  }
+}
+
+/*** Offers section ***/
+.basic, .master {
+  background-color: white;
+  padding: 4% 3%;
+  border-radius: 10px;
+}
+
+.basic {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.master {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.professional {
+  margin: -2% 0;
+  padding: 6% 3%;
+  background-image: linear-gradient(135deg, #a3a8f0, #696fdd);
+  color: white;
+  border-radius: 10px;
+}
+
+.pricing {
+  border-bottom: solid thin #b3b5c6;
+  padding-bottom: 4%;
+}
+
+.storage, .users-allowed, .sending-limit {
+  border-bottom: solid thin #b3b5c6;
+  padding-top: 5%;
+}
+
+.learn-more {
+  margin-top: 12%;
+}
+
+.learn-more button {
+  padding: 4% 0;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+
+.basic .learn-more button, .master .learn-more button {
+  background-image: linear-gradient(to right,#a3a8f0, #696fdd);
+  color: white;
+}
+
+.professional .learn-more button {
+  background-color: white;
+  color: #696fdd;
+}
+
+@media (max-width: 480px) {
+  .basic, .professional, .master {
+    margin-bottom: 10%;
+  }
+}
